@@ -2,7 +2,6 @@
 Documentation     I want to move my character. If they attempt to move past a boundary, the move results in no change in position.
 Test Template     Move character
 Library           MoveLibrary.py
-https://arcbotics.com/wp-content/uploads/2015/12/sparki-driver-icon.png
 
 *** Test Cases ***                  StartingX     StartingY     StartingMoveCount     Direction     EndingX     EndingY     EndingMoveCount
 Move in the middle of the board     3             2             1                     NORTH         3           3           2
