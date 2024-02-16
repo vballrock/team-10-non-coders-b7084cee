@@ -27,3 +27,6 @@ class TestCharacter(TestCase):
         testobj.map = stubbed_map
         
         testobj.move(Direction.EAST)
+
+        self.assertEqual(stubbed_map.STUBBED_X, testobj.current_position.x)
+        self.assertEqual(stubbed_map.STUBBED_Y, testobj.current_position.y)
