@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation     Test start of game. Let's play \n\n https://raw.githubusercontent.com/level-up-program/python-robot-reference/main/tests/robot/images/gamerErin.png
+Documentation     Test start of game. Let's play \n\n https://arcbotics.com/wp-content/uploads/2015/12/sparki-driver-icon.png
 Test Template     Start new game
 Library           StartGameLibrary.py
 
